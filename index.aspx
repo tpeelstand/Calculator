@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div>
         <h1>ASP.NET Financial Calulator</h1>
-        <div><p>This is cool.</p></div>
+        <p>Didn't need those div's in there! Silly me!</p>
     </div>
     </form>
 </body>
