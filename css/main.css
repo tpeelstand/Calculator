@@ -12,6 +12,12 @@
   width: 550px;
   height: 400px;
 }
+p {
+  float: left;
+  color: #f00;
+  font-size: 48px;
+  font-variant: small-caps;
+}
 .footer {
   position: absolute;
   top: 225px;
