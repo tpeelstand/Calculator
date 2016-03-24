@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>ASP.NET Financial Calculator</title>
+    <title>Learning ASP.NET | Financial Calculator | Sam's Teach Yourself</title>
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
@@ -14,22 +14,22 @@
 
         <%-- PRINCIPAL AMOUNT --%>
         <div class="calcContainer">
-            <h1>Financial Calulator</h1>
+            <h1>Financial Calculator</h1>
 
             <span><strong>Principal Amount:</strong></span> 
-            <asp:TextBox class="textbox" ID="LoanAmount" runat="server"></asp:TextBox>
+            <asp:TextBox class="textbox" ID="LoanAmount" runat="server" placeholder=" 250,000"></asp:TextBox>
         </div>
 
         <%-- INTEREST RATE --%>
         <div class="calcContainer">
             <span><strong>Interest Rate:</strong></span> 
-            <asp:TextBox class="textbox" ID="InterestRate" runat="server"></asp:TextBox>
+            <asp:TextBox class="textbox" ID="InterestRate" runat="server" placeholder=" percentage"></asp:TextBox>
         </div>
 
         <%-- MORTGAGE LENGTH  --%>
         <div class="calcContainer">
             <span><strong>Mortgage Length:</strong></span> 
-            <asp:TextBox class="textbox" ID="MortgageLength" runat="server"></asp:TextBox>
+            <asp:TextBox class="textbox" ID="MortgageLength" runat="server" placeholder=" number of years"></asp:TextBox>
         </div>
 
         <div class="calcContainer">
