@@ -1,26 +1,18 @@
 /* ###### THIS IS THE MAIN STYLE FILE THAT HAS ALL THE IMPORT TO THE DEDICATED STYLUS FILES  ######  */
-.header {
-  position: absolute;
-  top: 225px;
-  left: 8000px;
-  width: 550px;
+div.calcContainer {
+  width: 400px;
+  margin: 0 0;
+  padding: 15px 0;
+  display: block;
+  clear: both;
 }
-.intro {
-  position: absolute;
-  top: 225px;
-  left: 660px;
-  width: 550px;
-  height: 400px;
-}
-p {
+span {
   float: left;
-  color: #f00;
-  font-size: 48px;
-  font-variant: small-caps;
 }
-.footer {
-  position: absolute;
-  top: 225px;
-  left: 660px;
-  width: 9px;
+.textbox {
+  float: right;
+}
+.button {
+  float: right;
+  margin-top: 15px;
 }
